@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.main{
+    width: 100%;
+    height: 100vh;
+    background-color: #642626;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+.container{
+    height: 100px;
+    width:400px;
+    background-color: #fff;
+    align-items: center;
+    justify-content: end;
+    display: flex;
+    flex-direction: column;
+    border-radius: 5px;
+}
+#color{
+    font-size: 3rem;
+}
+#btn{
+    font-size: 1.2rem;
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #141414;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    
+}
